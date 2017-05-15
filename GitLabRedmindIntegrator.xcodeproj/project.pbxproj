@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09964CDF1ECA3247003FDAF9 /* GitLabMessageReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09964CDE1ECA3247003FDAF9 /* GitLabMessageReceiver.swift */; };
 		OBJ_1000 /* dh_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_258 /* dh_lib.c */; };
 		OBJ_1001 /* dh_pmeth.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_259 /* dh_pmeth.c */; };
 		OBJ_1002 /* dh_prn.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_260 /* dh_prn.c */; };
@@ -1083,6 +1084,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09964CDE1ECA3247003FDAF9 /* GitLabMessageReceiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitLabMessageReceiver.swift; sourceTree = "<group>"; };
 		OBJ_100 /* aes_core.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_core.c; sourceTree = "<group>"; };
 		OBJ_101 /* aes_ctr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ctr.c; sourceTree = "<group>"; };
 		OBJ_102 /* aes_ecb.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes_ecb.c; sourceTree = "<group>"; };
@@ -2072,7 +2074,7 @@
 			path = ".build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -2081,7 +2083,6 @@
 				OBJ_10 /* Dependencies */,
 				OBJ_775 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_57 /* PerfectNet 2.1.7 */ = {
@@ -2117,6 +2118,7 @@
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				09964CDE1ECA3247003FDAF9 /* GitLabMessageReceiver.swift */,
 				OBJ_8 /* main.swift */,
 			);
 			path = Sources;
@@ -3112,7 +3114,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_775 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3256,6 +3258,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_1653 /* main.swift in Sources */,
+				09964CDF1ECA3247003FDAF9 /* GitLabMessageReceiver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
